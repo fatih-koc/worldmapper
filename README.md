@@ -2,6 +2,8 @@
 
 A Python package for accessing comprehensive world country, state, and city information.
 
+https://pypi.org/project/worldmapper/
+
 ## Installation
 
 ```bash
