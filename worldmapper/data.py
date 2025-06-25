@@ -37,7 +37,7 @@ class WorldMapper:
                 return country
         return None
 
-    def get_languges_by_alpha2(self, alpha2: str) -> Optional[Dict[str, Any]]:
+    def get_languages_by_alpha2(self, alpha2: str) -> Optional[Dict[str, Any]]:
         """Get country langueage by alpha2 code."""
         for country in self._data:
             if country.get('alpha2', '').lower() == alpha2.lower():
