@@ -24,6 +24,9 @@ usa = wm.get_country_by_name("United States")
 # Get country by alpha2 code
 us = wm.get_country_by_alpha2("US")
 
+# Get languages by alpha2 code
+us = wm.get_languages_by_alpha2("US")
+
 # Get countries by continent
 european_countries = wm.get_countries_by_continent("Europe")
 
